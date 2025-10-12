@@ -1,9 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://hjbggnkaauep"]
+[gd_scene load_steps=3 format=3 uid="uid://hjbggnkaauep"]
 
-[ext_resource type="Script" uid="uid://dbibyh2ps2gxf" path="res://Scripts/mainmenu.gd" id="1_cmhrf"]
+[ext_resource type="Script" uid="uid://dbibyh2ps2gxf" path="res://assets/Scripts/mainmenu.gd" id="1_mwbsg"]
+
+[sub_resource type="Theme" id="Theme_cmhrf"]
 
 [node name="mainmenu" type="Node2D"]
-script = ExtResource("1_cmhrf")
+script = ExtResource("1_mwbsg")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -26,6 +28,7 @@ offset_left = 265.0
 offset_top = 134.0
 offset_right = 335.0
 offset_bottom = 165.0
+theme = SubResource("Theme_cmhrf")
 text = "Options
 "
 

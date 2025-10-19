@@ -11,13 +11,14 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+theme = ExtResource("2_f6rlo")
 
 [node name="Play" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 270.0
-offset_top = 52.0
-offset_right = 311.0
-offset_bottom = 83.0
+offset_left = 268.0
+offset_top = 54.0
+offset_right = 335.0
+offset_bottom = 85.0
 text = "Play
 "
 
@@ -33,10 +34,10 @@ text = "Options
 
 [node name="Exit" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 269.0
-offset_top = 217.0
-offset_right = 306.0
-offset_bottom = 248.0
+offset_left = 267.0
+offset_top = 218.0
+offset_right = 329.0
+offset_bottom = 249.0
 text = "Exit
 "
 
